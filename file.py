@@ -7,7 +7,7 @@ from mutagen.mp3 import MP3
 
 
 
-for subdir, dirs, files in os.walk(r'C:\Users\Anas\AppData\Local\osu!\Songs'):
+for subdir, dirs, files in os.walk(r'srcFile'):
     for file in files:
         #print os.path.join(subdir, file)
         filepath = subdir + os.sep + file
